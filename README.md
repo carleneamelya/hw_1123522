@@ -115,8 +115,10 @@ insert the next element from the same array into the queue.
 Input Format 
 1.  An integer K, the number of sorted arrays. 
 2.  K sorted arrays, each entered on a new line, with elements separated by 
-spaces. 
-Output Format 
+spaces.
+<br>
+Output Format
+<br>
 • A single line containing the merged sorted array. 
  <br>
 Example:
@@ -145,7 +147,8 @@ task can be scheduled at a time.
  
 Input Format 
 1.  An integer N, the number of tasks. 
-2.  N lines containing two integers each: profit and deadline of a task. 
+2.  N lines containing two integers each: profit and deadline of a task.
+<br>
 Output Format 
 1.  The maximum profit that can be achieved. 
 2.  The list of scheduled tasks in the order they are executed. 
@@ -172,15 +175,15 @@ Scheduled Tasks: [100, 40]
 <br> <br>
 Explanation
 <br>
-- Input represents 4 tasks with (profit, deadline) as (50, 1), (20, 2), (40, 2), 
+• Input represents 4 tasks with (profit, deadline) as (50, 1), (20, 2), (40, 2), 
 100, 1). 
 <br>
-- Using a Max Priority Queue, tasks with higher profit are prioritized while 
+• Using a Max Priority Queue, tasks with higher profit are prioritized while 
 ensuring deadlines are respected: 
 <br>
-- Task (40, 2) is scheduled in slot 2. 
+   - Task (40, 2) is scheduled in slot 2. 
 <br>
-- Task (100, 1) is scheduled in slot 1. 
+   - Task (100, 1) is scheduled in slot 1. 
 <br>
-- Total profit: 100 + 40 = 140
+   - Total profit: 100 + 40 = 140
   
