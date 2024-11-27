@@ -180,8 +180,3 @@ Explanation
 <br>
 • Using a Max Priority Queue, tasks with higher profit are prioritized while 
 ensuring deadlines are respected: 
-<br>
-- Task (100, 1) is scheduled in slot 1. 
-<br>
-- Total profit: 100 + 40 = 140
-  
