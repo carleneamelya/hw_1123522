@@ -1,9 +1,12 @@
 # Data Structure HW 2 
 ## Carlene 1123522
 
-### QUESTION 1
+### QUESTION 1 
+<br>
 Binary Tree - Find the Diameter of a Binary Tree 
+<br>
 Problem Statement: 
+<br>
 Write a program to calculate the diameter of a binary tree. The diameter of a 
 binary tree is the length of the longest path between any two nodes in the tree. 
 The path may or may not pass through the root. 
@@ -30,9 +33,12 @@ Output:
 
 ---
 
-### QUESTION 2
-Heap Sort - Build a Priority Queue for Tasks 
+### QUESTION 2 
+<br>
+Heap Sort - Build a Priority Queue for Tasks
+<br>
 Problem Statement: 
+<br>
 Write a program to manage a task priority queue using a max heap. Each task 
 has a name and a priority level. Your program should allow: 
 1.  Add a Task: Add a task with a given priority. 
