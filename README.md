@@ -8,15 +8,22 @@ Problem Statement:
 Write a program to calculate the diameter of a binary tree. The diameter of a 
 binary tree is the length of the longest path between any two nodes in the tree. 
 The path may or may not pass through the root. 
-You are required to: 
+<br>
+You are required to:
+<br>
 1.  Build the binary tree using level-order input. Use -1 to represent null 
 nodes. 
+<br>
 2.  Implement a function to calculate the diameter of the binary tree 
 efficiently using recursion. 
+<br>
 Input Format: 
+<br>
 1.  The first line contains a list of integers representing the level-order 
 traversal of the binary tree. Use -1 for null nodes. 
+<br>
 Output Format: 
+<br>
 Print an integer representing the diameter of the binary tree.
 <br> <br>
 Example: 
@@ -35,20 +42,31 @@ Output: 6
 Problem Statement: 
 <br>
 Write a program to manage a task priority queue using a max heap. Each task 
-has a name and a priority level. Your program should allow: 
+has a name and a priority level. Your program should allow:
+<br>
 1.  Add a Task: Add a task with a given priority. 
+<br>
 2.  Get the Highest Priority Task: Remove and return the task with the 
 highest priority. 
+<br>
 3.  Display the Remaining Tasks: Print the remaining tasks in descending 
 order of priority. 
+<br>
 Input Format: 
+<br>
 1.  The first line contains an integer N, the number of operations. 
+<br>
 2.  The next N lines contain either: 
+<br>
 o "ADD task_name priority" to add a task. 
+<br>
 o "GET" to fetch the highest-priority task. 
+<br>
 Output Format: 
+<br>
 1.  For every "GET" operation, print the name of the task with the highest 
 priority. 
+<br>
 2.  At the end, print the list of remaining tasks in descending order of 
 priority.
 <br> <br>
@@ -146,8 +164,6 @@ Input:
 <br>
 25   1 
 <br> <br>
-Example
-<br>
 Output 
 <br>
 Maximum Profit: 127 
