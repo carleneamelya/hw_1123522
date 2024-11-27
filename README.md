@@ -2,7 +2,6 @@
 ## Carlene 1123522
 
 ### QUESTION 1 
-<br>
 Binary Tree - Find the Diameter of a Binary Tree 
 <br>
 Problem Statement: 
@@ -34,7 +33,6 @@ Output:
 ---
 
 ### QUESTION 2 
-<br>
 Heap Sort - Build a Priority Queue for Tasks
 <br>
 Problem Statement: 
