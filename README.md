@@ -21,7 +21,7 @@ Print an integer representing the diameter of the binary tree.
 Example: 
 Input: 
 [1, 2, 3, 4, 5, 9, 10, 6, 7, 8, -1, -1 ,-1 ,11 , 12]  
-
+<br>
 Output: 
 6 
 <br>
@@ -61,6 +61,8 @@ GET
 
 Output: 
 Task3
+<br>
 Task5
+<br>
 Remaining tasks: [('Task4', 75), ('Task2', 50), ('Task1', 25), ('Task6', 20)]
 
