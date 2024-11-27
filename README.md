@@ -117,4 +117,47 @@ Example Input
 Example Output 
 <br> 
 Merged Array: [1, 2, 3, 4, 5, 6, 7, 8, 9] 
+
+---
+### Question 4: Schedule Tasks with Deadlines Using Max Priority Queue 
+You are given N tasks, each with a profit and a deadline. Write a Python 
+program to schedule the tasks such that the maximum profit is achieved, using a 
+Max Priority Queue. 
+Each task must be completed within its deadline (1-based index), and only one 
+task can be scheduled at a time. 
+ 
+Input Format 
+1.  An integer N, the number of tasks. 
+2.  N lines containing two integers each: profit and deadline of a task. 
+Output Format 
+1.  The maximum profit that can be achieved. 
+2.  The list of scheduled tasks in the order they are executed. 
+ 
+Example Input 
+<br>
+4 
+<br>
+100   2 
+<br>
+19   1 
+<br>
+27   2 
+<br>
+25   1 
+<br>
+Example Output 
+<br>
+Maximum Profit: 127 
+<br>
+Scheduled Tasks: [100, 27] 
+<br>
+Explanation 
+• Input represents 4 tasks with (profit, deadline) as (100, 2), (19, 1), (27, 2), 
+(25, 1). 
+• Using a Max Priority Queue, tasks with higher profit are prioritized while 
+ensuring deadlines are respected: 
+o Task (100, 2) is scheduled in slot 2. 
+Data Structure Homework 
+o Task (27, 2) is scheduled in slot 1. 
+o Total profit: 100 + 27 = 127
   
