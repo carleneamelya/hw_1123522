@@ -18,13 +18,13 @@ Input Format:
 traversal of the binary tree. Use -1 for null nodes. 
 Output Format: 
 Print an integer representing the diameter of the binary tree.
-<br>
+<br> <br>
 Example: 
 <br>
 Input: 
 <br>
 [1, 2, 3, 4, 5, 9, 10, 6, 7, 8, -1, -1 ,-1 ,11 , 12]  
-<br>
+<br> <br>
 Output: 6 
 <br>
 
@@ -51,7 +51,7 @@ Output Format:
 priority. 
 2.  At the end, print the list of remaining tasks in descending order of 
 priority.
-<br>
+<br> <br>
 Example: 
 <br>
 Input:
@@ -73,8 +73,7 @@ ADD Task5 90
 ADD Task6 20
 <br>
 GET
-<br>
-
+<br> <br>
 Output: 
 <br>
 Task3
@@ -102,11 +101,10 @@ spaces.
 Output Format 
 • A single line containing the merged sorted array. 
  <br>
-Example
+Example:
 <br>
-Input
+Input:
 <br> 
-
 3 
 <br> 
 1 4 7 
@@ -114,7 +112,7 @@ Input
 2 5 8 
 <br> 
 3 6 9 
-<br> 
+<br> <br>
 Output 
 <br> 
 Merged Array: [1, 2, 3, 4, 5, 6, 7, 8, 9] 
@@ -134,7 +132,9 @@ Output Format
 1.  The maximum profit that can be achieved. 
 2.  The list of scheduled tasks in the order they are executed. 
  
-Example Input 
+Example:
+<br>
+Input:
 <br>
 4 
 <br>
@@ -146,19 +146,25 @@ Example Input
 <br>
 25   1 
 <br> <br>
-Example Output 
+Example
+<br>
+Output 
 <br>
 Maximum Profit: 127 
 <br>
 Scheduled Tasks: [100, 27] 
 <br> <br>
-Explanation 
+Explanation
+<br>
 o Input represents 4 tasks with (profit, deadline) as (100, 2), (19, 1), (27, 2), 
 (25, 1). 
+<br>
 o Using a Max Priority Queue, tasks with higher profit are prioritized while 
 ensuring deadlines are respected: 
+<br>
 o Task (100, 2) is scheduled in slot 2. 
-Data Structure Homework 
+<br>
 o Task (27, 2) is scheduled in slot 1. 
+<br>
 o Total profit: 100 + 27 = 127
   
