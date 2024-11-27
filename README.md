@@ -18,15 +18,14 @@ Input Format:
 traversal of the binary tree. Use -1 for null nodes. 
 Output Format: 
 Print an integer representing the diameter of the binary tree.
-
+<br>
 Example: 
 <br>
 Input: 
 <br>
 [1, 2, 3, 4, 5, 9, 10, 6, 7, 8, -1, -1 ,-1 ,11 , 12]  
 <br>
-Output: 
-6 
+Output: 6 
 <br>
 
 ---
@@ -52,7 +51,7 @@ Output Format:
 priority. 
 2.  At the end, print the list of remaining tasks in descending order of 
 priority.
-
+<br>
 Example: 
 <br>
 Input:
@@ -103,7 +102,9 @@ spaces.
 Output Format 
 • A single line containing the merged sorted array. 
  <br>
-Example Input
+Example
+<br>
+Input
 <br> 
 
 3 
@@ -114,7 +115,7 @@ Example Input
 <br> 
 3 6 9 
 <br> 
-Example Output 
+Output 
 <br> 
 Merged Array: [1, 2, 3, 4, 5, 6, 7, 8, 9] 
 
