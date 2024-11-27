@@ -180,7 +180,6 @@ Explanation
 <br>
 • Using a Max Priority Queue, tasks with higher profit are prioritized while 
 ensuring deadlines are respected: 
-- Task (40, 2) is scheduled in slot 2. 
 <br>
 - Task (100, 1) is scheduled in slot 1. 
 <br>
