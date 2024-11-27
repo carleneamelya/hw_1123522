@@ -125,15 +125,15 @@ Input:
 <br> 
 3 
 <br> 
-1 4 7 
+11 15 18
 <br> 
-2 5 8 
+10 12 14
 <br> 
-3 6 9 
+13 16 17 
 <br> <br>
 Output 
 <br> 
-Merged Array: [1, 2, 3, 4, 5, 6, 7, 8, 9] 
+Merged Array: [10, 11, 12, 13, 14, 15, 16, 17, 18] 
 
 ---
 ### Question 4: Schedule Tasks with Deadlines Using Max Priority Queue 
@@ -156,31 +156,31 @@ Input:
 <br>
 4 
 <br>
-100   2 
+50 1
 <br>
-19   1 
+20 2
 <br>
-27   2 
+40 2
 <br>
-25   1 
+100 1 
 <br> <br>
 Output 
 <br>
-Maximum Profit: 127 
+Maximum Profit: 140
 <br>
-Scheduled Tasks: [100, 27] 
+Scheduled Tasks: [100, 40] 
 <br> <br>
 Explanation
 <br>
-- Input represents 4 tasks with (profit, deadline) as (100, 2), (19, 1), (27, 2), 
-(25, 1). 
+- Input represents 4 tasks with (profit, deadline) as (50, 1), (20, 2), (40, 2), 
+100, 1). 
 <br>
 - Using a Max Priority Queue, tasks with higher profit are prioritized while 
 ensuring deadlines are respected: 
 <br>
-- Task (100, 2) is scheduled in slot 2. 
+- Task (40, 2) is scheduled in slot 2. 
 <br>
-- Task (27, 2) is scheduled in slot 1. 
+- Task (100, 1) is scheduled in slot 1. 
 <br>
-- Total profit: 100 + 27 = 127
+- Total profit: 100 + 40 = 140
   
