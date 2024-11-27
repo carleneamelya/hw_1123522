@@ -144,17 +144,17 @@ Example Input
 27   2 
 <br>
 25   1 
-<br>
+<br> <br>
 Example Output 
 <br>
 Maximum Profit: 127 
 <br>
 Scheduled Tasks: [100, 27] 
-<br>
+<br> <br>
 Explanation 
-• Input represents 4 tasks with (profit, deadline) as (100, 2), (19, 1), (27, 2), 
+o Input represents 4 tasks with (profit, deadline) as (100, 2), (19, 1), (27, 2), 
 (25, 1). 
-• Using a Max Priority Queue, tasks with higher profit are prioritized while 
+o Using a Max Priority Queue, tasks with higher profit are prioritized while 
 ensuring deadlines are respected: 
 o Task (100, 2) is scheduled in slot 2. 
 Data Structure Homework 
