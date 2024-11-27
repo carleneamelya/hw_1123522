@@ -1,8 +1,7 @@
 # Data Structure HW 2 
 ## Carlene 1123522
 
-### QUESTION 1 
-Binary Tree - Find the Diameter of a Binary Tree 
+### QUESTION 1 : Binary Tree - Find the Diameter of a Binary Tree 
 <br>
 Problem Statement: 
 <br>
@@ -32,8 +31,7 @@ Output:
 
 ---
 
-### QUESTION 2 
-Heap Sort - Build a Priority Queue for Tasks
+### QUESTION 2 : Heap Sort - Build a Priority Queue for Tasks
 <br>
 Problem Statement: 
 <br>
@@ -86,3 +84,37 @@ Task5
 <br>
 Remaining tasks: [('Task4', 75), ('Task2', 50), ('Task1', 25), ('Task6', 20)]
 
+---
+
+### Question 3: Merge K Sorted Arrays Using Min Priority Queue 
+You are given K sorted arrays of integers. Write a Python program to merge 
+these arrays into a single sorted array using a Min Priority Queue. 
+Your program should: 
+1.  Insert the first element of each array into a Min Priority Queue along with 
+the array index and element index. 
+2.  Extract the smallest element from the queue, add it to the result array, and 
+insert the next element from the same array into the queue. 
+3.  Continue this process until all elements from all arrays are merged. 
+ 
+Input Format 
+1.  An integer K, the number of sorted arrays. 
+2.  K sorted arrays, each entered on a new line, with elements separated by 
+spaces. 
+Output Format 
+• A single line containing the merged sorted array. 
+ <br>
+Example Input
+<br> 
+
+3 
+<br> 
+1 4 7 
+<br> 
+2 5 8 
+<br> 
+3 6 9 
+<br> 
+Example Output 
+<br> 
+Merged Array: [1, 2, 3, 4, 5, 6, 7, 8, 9] 
+  
