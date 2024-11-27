@@ -21,6 +21,7 @@ Print an integer representing the diameter of the binary tree.
 Example: 
 <br>
 Input: 
+<br>
 [1, 2, 3, 4, 5, 9, 10, 6, 7, 8, -1, -1 ,-1 ,11 , 12]  
 <br>
 Output: 
@@ -53,17 +54,28 @@ priority.
 Example: 
 <br>
 Input:
+<br>
 8
+<br>
 ADD Task1 25
+<br>
 ADD Task2 50
+<br>
 ADD Task3 100
+<br>
 ADD Task4 75
+<br>
 GET
+<br>
 ADD Task5 90
+<br>
 ADD Task6 20
+<br>
 GET
+<br>
 
 Output: 
+<br>
 Task3
 <br>
 Task5
