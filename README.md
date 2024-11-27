@@ -58,9 +58,9 @@ Input Format:
 <br>
 2.  The next N lines contain either: 
 <br>
-- "ADD task_name priority" to add a task. 
+• "ADD task_name priority" to add a task. 
 <br>
-- "GET" to fetch the highest-priority task. 
+• "GET" to fetch the highest-priority task. 
 <br> <br>
 Output Format: 
 <br>
