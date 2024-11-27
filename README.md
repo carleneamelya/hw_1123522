@@ -19,12 +19,15 @@ Output Format:
 Print an integer representing the diameter of the binary tree.
 
 Example: 
+<br>
 Input: 
 [1, 2, 3, 4, 5, 9, 10, 6, 7, 8, -1, -1 ,-1 ,11 , 12]  
 <br>
 Output: 
 6 
 <br>
+
+---
 
 ### QUESTION 2
 Heap Sort - Build a Priority Queue for Tasks 
@@ -48,6 +51,7 @@ priority.
 priority.
 
 Example: 
+<br>
 Input:
 8
 ADD Task1 25
