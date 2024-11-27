@@ -16,12 +16,12 @@ nodes.
 <br>
 2.  Implement a function to calculate the diameter of the binary tree 
 efficiently using recursion. 
-<br>
+<br> <br>
 Input Format: 
 <br>
 1.  The first line contains a list of integers representing the level-order 
 traversal of the binary tree. Use -1 for null nodes. 
-<br>
+<br> <br>
 Output Format: 
 <br>
 Print an integer representing the diameter of the binary tree.
@@ -51,17 +51,17 @@ highest priority.
 <br>
 3.  Display the Remaining Tasks: Print the remaining tasks in descending 
 order of priority. 
-<br>
+<br> <br>
 Input Format: 
 <br>
 1.  The first line contains an integer N, the number of operations. 
 <br>
 2.  The next N lines contain either: 
 <br>
-o "ADD task_name priority" to add a task. 
+- "ADD task_name priority" to add a task. 
 <br>
-o "GET" to fetch the highest-priority task. 
-<br>
+- "GET" to fetch the highest-priority task. 
+<br> <br>
 Output Format: 
 <br>
 1.  For every "GET" operation, print the name of the task with the highest 
@@ -172,15 +172,15 @@ Scheduled Tasks: [100, 27]
 <br> <br>
 Explanation
 <br>
-o Input represents 4 tasks with (profit, deadline) as (100, 2), (19, 1), (27, 2), 
+- Input represents 4 tasks with (profit, deadline) as (100, 2), (19, 1), (27, 2), 
 (25, 1). 
 <br>
-o Using a Max Priority Queue, tasks with higher profit are prioritized while 
+- Using a Max Priority Queue, tasks with higher profit are prioritized while 
 ensuring deadlines are respected: 
 <br>
-o Task (100, 2) is scheduled in slot 2. 
+- Task (100, 2) is scheduled in slot 2. 
 <br>
-o Task (27, 2) is scheduled in slot 1. 
+- Task (27, 2) is scheduled in slot 1. 
 <br>
-o Total profit: 100 + 27 = 127
+- Total profit: 100 + 27 = 127
   
